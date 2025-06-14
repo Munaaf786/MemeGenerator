@@ -1,6 +1,6 @@
-In this project, let's build a **Meme Generator** app by applying the concepts we have learned till now.
+In this project, I've built a **Meme Generator** app by applying the concepts I have learned till now.
 
-### Refer to the image below:
+### Output is as per the below image:
 
 <br/>
 <div style="text-align: center;">
@@ -30,16 +30,16 @@ In this project, let's build a **Meme Generator** app by applying the concepts w
 ### Completion Instructions
 
 <details>
-<summary>Functionality to be added</summary>
+<summary>Functionality added</summary>
 <br/>
 
-The app must have the following functionalities
+The app has the following functionalities
 
-- Initially, values in the inputs elements should be empty and the selected value in the select element should be the first item in the given fontSizesOptionsList
+- Initially, values in the inputs elements are empty and the selected value in the select element is the first item in the given fontSizesOptionsList
 - When non-empty values are provided for **Image Url**, **Top Text**, **Bottom Text**, and **Font Size** and the **Generate** button is clicked
-  - The Image URL that has been provided should be applied as a background-image for the generated meme
-  - The given Top and Bottom text values should be at the top and bottom of the generated meme
-  - The selected font size value should be applied for both top and bottom text of the generated meme
+  - The Image URL that has been provided is applied as a background-image for the generated meme
+  - The given Top and Bottom text values are at the top and bottom of the generated meme
+  - The selected font size value is applied for both top and bottom text of the generated meme
 
 </details>
 
@@ -48,7 +48,7 @@ The app must have the following functionalities
 <summary>Implementation Files</summary>
 <br/>
 
-Use these files to complete the implementation:
+Used these files to complete the implementation:
 
 - `src/App.js`
 - `src/components/MemeGenerator/index.js`
@@ -63,7 +63,7 @@ Use these files to complete the implementation:
 
 <br/>
 
-**The following instructions are required for the tests to pass**
+**The following instructions were required for the tests to pass**
 
 - The HTML container element for the generated meme should have `data-testid` attribute value as **meme**
 - When Styled Components are used, `data-testid` attribute should be used instead of `testid` attribute
@@ -101,9 +101,10 @@ Use these files to complete the implementation:
 
 </details>
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+### Conclusion
+
+Thanks for checking out my Meme Generator! This project showcases my skills in React and Styled Components, with features like dynamic meme creation, text customization, and responsive styling. Feel free to explore, fork, or contribute!
+
+🔗 Check it out here: [https://memeBuilder.ccbp.tech/](https://memeBuilder.ccbp.tech)
+
+Happy coding! 🎉
